@@ -1,0 +1,59 @@
+{
+  "id": "fea1fbbe-b0c4-40ea-ba54-6faf91d193e9",
+  "version": "3.0",
+  "name": "Nick-Evinced Side Runner Test",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "ca6472db-7d7e-4660-b07f-b2fff7da09b1",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "88c745d2-fad9-4bd6-859b-121b9b37823a",
+      "name": "Nvidia",
+      "commands": [
+        {
+          "id": "72761c5e-abee-4392-89f4-7d2629cfe225",
+          "command": "open",
+          "target": "https://nvidia.com",
+          "value": ""
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=[role=\"navigation\"]",
+          "value": "",
+          "id": "6a7df1cf-92e4-4edf-b13d-7d03463ed505"
+        },
+        {
+          "command": "verifyElementPresent",
+          "target": "css=[role=\"navigation\"]",
+          "value": "",
+          "id": "114c91d6-e9e1-485c-9117-93b9b1282fce"
+        },
+        {
+          "command": "verifyText",
+          "target": "css=button#onetrust-accept-btn-handler ",
+          "value": "Agree",
+          "id": "edcb9d81-b148-40ac-91ce-bcda34c233b0"
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}

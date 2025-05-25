@@ -1,0 +1,12 @@
+FAIL ../../../../usr/local/lib/node_modules/selenium-side-runner/dist/main.test.js
+  ● Test suite failed to run
+
+    No matching projects found, supplied filepaths: /Users/nickspc/Documents/Selenium IDE Project/nvidia-a11y.side
+
+      at Object.<anonymous> (src/main.test.ts:87:9)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        0.217 s, estimated 4 s
+Ran all test suites within paths "/usr/local/lib/node_modules/selenium-side-runner/dist/main.test.js".
