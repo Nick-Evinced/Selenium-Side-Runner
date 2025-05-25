@@ -1,12 +1,22 @@
-FAIL ../../../../usr/local/lib/node_modules/selenium-side-runner/dist/main.test.js
-  ● Test suite failed to run
+  console.info
+    
+              Project Nick-Evinced Side Runner Test doesn't have any suites matching filter .*,
+              attempting to iterate all tests in project
 
-    No matching projects found, supplied filepaths: /Users/nickspc/Documents/Selenium IDE Project/nvidia-a11y.side
+      at src/main.test.ts:184:17
+          at Array.forEach (<anonymous>)
 
-      at Object.<anonymous> (src/main.test.ts:87:9)
+[32minfo[39m: Running test Nvidia
+[32minfo[39m: Finished test Nvidia Success
+PASS ../../../../usr/local/lib/node_modules/selenium-side-runner/dist/main.test.js
+  Running project Nick-Evinced Side Runner Test
+    ✓ Running test Nvidia (3153 ms)
 
-Test Suites: 1 failed, 1 total
-Tests:       0 total
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        0.217 s, estimated 4 s
+Time:        3.325 s
 Ran all test suites within paths "/usr/local/lib/node_modules/selenium-side-runner/dist/main.test.js".
+Jest did not exit one second after the test run has completed.
+
+'This usually means that there are asynchronous operations that weren't stopped in your tests. Consider running Jest with `--detectOpenHandles` to troubleshoot this issue.
